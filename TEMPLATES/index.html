@@ -1,0 +1,176 @@
+{% load static %}
+{% static "images" as baseUrl %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWEET CHOICE</title>
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <style type="text" src="{% static 'js/home.js'%}"></style>
+    <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="navdv" id="navid">
+        
+        <nav class="navbar" id="navbar">
+            <div class="main-content">
+                <li><a href="#">HOME<span class="fa fa-angle-right"></span></a></li>
+               <li  onclick="navigate_ordernow()" class="toplia"><a >ORDER NOW<span class="fa fa-angle-right"></span></a></li>
+               <li onclick="test()"><a onclick="test()">MENU</MENU> <span class="fa fa-angle-right"></span></a></li>
+                <li onclick="test()"><a onclick="test()">ORDERS<span class="fa fa-angle-right"></span></a></li>
+                <li onclick="test()"><a onclick="test()">ABOUT US<span class="fa fa-angle-right"></span></a></li>
+                <li onclick="test()"><a onclick="test()">SIGN IN<span class="fa fa-angle-right"></span></a></li>
+                <li onclick="test()"><a onclick="test()">SIGN UP<span class="fa fa-angle-right"></span></a></li>
+            </div>
+            <div class="main2-content">
+                <a onclick="navigate_ordernow()" class="label11" >ORDER ONLINE</a>
+                <a onclick="test()" class="label12">DOWNLOAD APP</a>
+                <p class="appdiscounts">GET EXCLUSIVE APP DISCOUNTS</p>
+            </div>
+            <div class="main3-content">
+                <ul class="unorderlist1">
+                    <a claas="facebook-icon" href="" class="fa fa-facebook"></a>
+                    <a href="" class="fa fa-instagram"></a>
+                    <a href="" class="fa fa-google"></a>
+                    <a href="" class="fa fa-twitter"></a>
+                </ul>
+            </div>
+            <div class="bottomnav">
+                <p>CONTACT US  <span> 9390558027</span></p>
+                <p class="location">LOCATION  <span>9390558027</span></p>
+                <p>CALL ORDER  <span>9390558027</span></p>
+            </div>
+        </nav>
+    </div>
+    <div class="top-container">
+        <label class="top-label">
+            SWEET <span>CHOICE</span> 
+        </label>
+            <label onclick="opennav()" class="menuicon" id="menuiconlabel" for="checkbox">
+                <i  id="menu-icon" class ="fa fa-bars"></i>
+            </label>
+            <input class="checkbox" id="checkbox" type="checkbox"></br></br>
+        <label class="label2">CHOICE IS YOURS DELIVERY IS OURS</label>
+        <button class="signinbutton" id="signinbu">LOGIN <span class="fa fa-user"></span></button>
+        
+       
+    </div>
+    <div class="bottom-nav1">
+        <button href="{% static 'main_html/order_now.html' %}" class="order-nowbu">PLACE ORDER</button>
+    </div>
+    <div class="img-scrolling">
+        <marquee class="marque-scrolling" behavior="alternate">
+            <img onclick="test()"src="{% static 'img/free-delivery.jpeg' %}" width="200" height="150">
+            <img onclick="test()" src="{% static 'img/super-delicious-food.jpeg' %}" width="200" height="150">
+            <img onclick="test()" src="{% static 'img/pieces-order-now.jpeg' %}" width="200" height="150">
+            <img onclick="test()" src="{% static 'img/SWEETS.jpg' %}" width="200" height="150">
+            <img onclick="test()" src="{% static 'img/BIRIYANI.jpg' %}" width="200" height="150">
+            <img onclick="test()" src="{% static 'img/BURGER.jpg' %}" width="200" height="150">
+            <img onclick="test()" src="{% static 'img/NEAT_SITTING.jpg' %}" width="200" height="150">
+        </marquee>
+    </div>
+    <label class="recomondation">OUR CHIEF RECOMMENDATIONS</label>
+    <div class="main-imgflex">
+        <div class="one1">
+            <img onclick="test()" src="{% static 'img/biriyani-main.jpg' %}" width="100" height="100">
+        </div>
+        <div class="one2">
+            <img onclick="test()" src="{% static 'img/BURGER.jpg' %}" width="100" height="100">
+            
+        </div>
+        <div class="one2">
+            <img onclick="test()" src="{% static 'img/VEG-FRIED-RICE.jpg' %}" width="100" height="100">
+        
+        </div>
+    </div>
+
+
+
+    <div class="list-above" onclick="navigate()">
+        <label class="">OUR FOOD</label>
+        <p>HERE YOUR LIST OF TASTY FOODS</p>
+    </div>
+    
+    <div class="food-items">
+        <div  onclick="navigate(this.getAttribute('class'))" class="one11">
+            <img  src="{% static 'img/BIRIYANI.jpg' %}" width="80" height="80"> 
+            <label>BIRIYANI</label>
+        </div>
+        <div class="one22" onclick="navigate(this.getAttribute('class'))">
+            <img src="{% static 'img/FRIED_RICE.jpg' %}"  width="80" height="80">
+            <label >FRIED RICE</label>
+        </div>
+        <div class="one33" onclick="navigate(this.getAttribute('class'))">
+            <img  src="{% static 'img/non-veg-starters.png' %}"  width="80" height="80">
+            <label >STARTERS</label>
+        </div>
+        <div class="one44" onclick="navigate(this.getAttribute('class'))">
+            <img  src="{% static 'img/PULKA.jpg' %}"  width="80" height="80">
+            <label>PULKA</label>
+        </div>
+        <div class="one55" onclick="navigate(this.getAttribute('class'))">
+            <img  src="{% static 'img/PIZZA.jpg' %}"  width="80" height="80">
+            <label >PIZZA</label>
+        </div>
+        <div class="one66" onclick="navigate(this.getAttribute('class'))">
+            <img  src="{% static 'img/SWEET_GIRL.jpg' %}"  width="80" height="80">
+            <label>SWEETS</label>
+        </div>
+        <div class="one77" onclick="navigate(this.getAttribute('class'))">
+            <img id="cake_img"  src="{% static 'img/CAKES.jpeg' %}"  width="80" height="80">
+            <label>CAKES</label>
+        </div>
+        <div class="one88" onclick="navigate(this.getAttribute('class'))">
+            <img  src=" {% static 'img/showrma.jpg' %}"  width="80" height="80">
+            <label>Shawarma</label>
+        </div>
+        <div class="one99" onclick="navigate(this.getAttribute('class'))">
+            <img  src="{% static 'img/MANDI.jpg' %}"  width="80" height="80">
+            <label>MANDI</label>
+        </div>
+    </div>
+
+
+    
+    <div class="bottom1-div">
+        <img onclick="test()" class="book-table-img" src="{% static 'img/NEAT_SITTING.jpg' %}" width="100%" height="200">
+        <label onclick="navigate_ordernow()"class="book-your-tabel">BOOK YOUR TABLE</label>
+    </div>
+
+    <form action="send_message" method="post">
+        
+        {% csrf_token %}
+        <div class="bottom2-div">
+            <label >PLACE YOUR DELIVERY IN WHATSAPP</label>
+            <input class="fa fa-user" name="NUMBER_FIELD" id="phonenumbertext" type="text" placeholder="ENTER YOUR WAHTSAPP NO"><span class="fa fa-user"></span>
+        </div>
+        <div class="place-orderbu">
+            <button >PLACE ORDER</button>
+        </div>
+    
+    
+
+    </form>
+    
+
+    <label onclick="sendmsgbu()" id="whatsapp-icon" class="fa fa-whatsapp"></label>
+    <div class="copyright-strike"> 
+        <label class="copyright-strike">Copyright © 2023 SHAIK AFRID , All Rights Reserved.</label>
+    </div>
+
+</div>
+
+    </body>
+<script>
+    window.addEventListener('load', function(e){
+      document.getElementById('defaultOpen').click();
+    });
+  </script>
+  <script src="{% static 'js/home.js' %}"></script>
+</html>
