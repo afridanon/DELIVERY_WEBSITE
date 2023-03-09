@@ -1,0 +1,388 @@
+*{
+    background:rgb(248, 246, 246);
+  margin:0px;  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navdv{
+    z-index: 1;
+    position: fixed;
+    float:right;
+    right:1px;
+    width:70%;
+    height:90vh;
+    top:62px;
+    background:white;
+    color:black;
+    text-align:center;
+}
+#navid{
+    display:none;
+}
+.main-content{
+    margin-top:0px;
+    width:98%;
+    float:right;
+    margin-right:5px;
+    height:33vh;
+border-radius:10px;
+    background:white;
+}
+.navdv nav li{
+    cursor:pointer;
+    border-bottom:.1em solid black;
+   width:100%;
+   float:left;
+   height:40px;
+   margin-left:5%;
+    background:white;
+    font-size:15px;
+    list-style:none;
+    margin-top: 10px;
+    line-height:40px;
+
+
+}
+.navdv nav li:active,.navdv nav li:hover{
+    font-size:17px;
+
+
+}
+.toplia{
+    top:50vh;
+}
+.navdv nav li a{
+    text-align:center;
+    background:white;
+    text-decoration:none;
+    color:black;
+    font-weight:700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+.main-content li a span{
+    font-size:20px;
+    line-height:40px;
+}
+.main2-content{
+    width:100%;
+    height:30vh;
+    background:white;
+}
+.label11{
+    float:left;
+    margin-top:120px;
+    margin-left:12%;
+    text-decoration:none;
+    color:balck;
+    background:#fab72b;
+    border-color: #fab72b;
+    color:white;
+    width:76%;
+    height:35px;
+    line-height:35px;
+    font-weight:700;
+    border-radius: 5px;
+
+}
+.label12{
+    float:left;
+    margin-top:10px;
+    text-decoration:none;
+    width:96%;
+    height:40px;
+    margin-left:5px;
+    background:linear-gradient(to left, rgba(64,230,255,1) 0%, rgba(33,105,164,1) 100%) !important;
+    color:white;
+    line-height:42px;
+    font-size:13px;
+    font-weight:600;
+    border-radius:5px;
+
+
+}
+.label12:active,.label12:hover{
+    background:linear-gradient(to left, rgba(33,105,164,1) 0%, rgba(64,230,255,1)100%) !important;
+
+}
+.appdiscounts{
+    
+    float:left;
+    width:100%;
+    height:40px;
+    margin-top:10px;
+    color:black;
+    font-weight:300;
+    font-size:11px;
+    font-weight:600;
+    background:white;
+
+}
+.main3-content{
+    float:left;
+    background:white;
+}
+.main3-content ul a{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    text-decoration:none;
+    font-size:25px;
+    color:black;
+}
+.navdv nav li a span{
+    float:right;
+    background:white;
+    margin-right:20px;
+    color:black;
+}
+.navdv nav li a:active,.navdv nav li a:hover{
+   background:whitesmoke;
+}
+.bottomnav{
+    float:left;
+    margin-top:40px;
+    background:white;
+}
+.bottomnav p{
+    margin-left:60px;
+    color:black;
+    font-size:10px;
+    font-weight:800;
+    background:white;
+    margin-top:10px;
+
+}
+.bottomnav p span{
+    font-size:10px;
+    margin-left:30px;
+    background:white;
+    color:blue;
+}
+.top-container{
+    position: fixed;
+    background:white;
+    text-align:center;
+    width:100%;
+    color:white;
+    height:60px;
+}
+.top-label{
+    float:right;
+    margin-right:40%;
+    border-bottom:1px solid bisque;
+    margin-top:10px;
+    font-size:20px;
+    color:red;
+    font-weight:700;
+    background:transparent;
+    
+}
+.top-label span{
+    font-weight:400;
+    background:transparent;
+    color:rgb(13, 29, 255);
+}
+#menu-icon{
+    float:left;
+    color: black;
+    margin-left:25px;
+    margin-top:20px;
+    font-size:24px;
+    background:transparent;
+ 
+}
+.top-container input{
+    display:none;
+    float:left;
+   
+}
+.label2{
+    color:black;
+    font-weight:700;
+    float:right;
+    margin-right:42%;
+    margin-top:3px;
+    background:transparent;
+    font-size:7px;
+}
+.signinbutton{
+    float:right;
+    margin-top:-25px;
+    margin-right:-33vh;
+    color:red;
+    border:none;
+    background:blue;
+    border-radius:5px;
+    width:80px;
+    height:30px;
+    font-size:12px;
+    color:white;
+    font-weight:700px;
+
+}
+.signinbutton span{
+    font-size:15px;
+    color:white;
+    background:blue;
+}
+.bottom-nav1{
+    background-image:url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq");
+    height:50px;
+    width:100%; 
+    overflow:hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-clip-margin: content-box;
+    overflow:hidden;
+    float:left;
+    margin-top:70px;
+    text-align:center;
+}
+.order-nowbu{
+    margin-top:10px;
+    margin-left:-10px;
+    border:none;
+    background:#fab72b;
+    border-radius:10px 0 10px 0;
+    width:80%;
+    height:30px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+}
+
+.img_food{
+    text-align:center;
+    width:100%;
+    height:200px;
+    background:red;
+    float:left;
+    margin-left:0%;
+    margin-top:5px;
+}
+.get_call{
+    text-align:center;
+
+}
+.get_call_sub{
+
+}
+.get_call_sub label{
+    color:black;
+    font-weight:600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom:1px solid black;
+    padding-bottom:5px;
+    float:left;
+    margin-left:25%;
+    margin-top:10px;
+}
+.get_call_sub input{
+    background:linear-gradient(to right, rgba(64,230,255,1) 0%, rgba(33,105,164,1) 100%);
+    color:white;
+    font-weight:700;
+    width:40%;
+    height:30px;
+    border:none;
+    margin-top:15px;
+    border-radius:0 10px 0 10px;
+}
+.hint_label{
+    text-align:center;
+    padding:10px;
+    word-spacing:2px;
+}
+.sub_hint_div label{
+    font-size:15px;
+    float:left;
+    margin-top:20px;
+    font-weight:100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 7, 164);
+    font-variant: normal;
+    
+}
+
+.bottom2-div{
+    margin-top:70px;
+    padding:20px;
+    text-align:center;
+}
+.bottom2-div label{
+    color:black;
+    font-size:15px;
+    font-weight:500;
+    border-bottom:1px solid rgb(240, 0, 0);
+    font-weight: 700;
+    font-family: monospace;
+
+}
+.bottom2-div input{
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+    margin-top:5px;
+    width:89%;
+    height:35px;
+    border-radius:5px;
+    border-color:red;
+    border:transparent;
+    text-align: center;
+    font-size:16px;
+    outline:none;
+}
+.bottom2-div  span{
+    position: absolute;
+    float:right;
+    margin-left:-80%;
+    border-radius:5px 0 0 5px;
+    margin-top:5px;
+    font-size:20px;
+    background: #ffa02a;
+    width:41px;
+    height:37px;
+    line-height:35px;
+}
+
+::placeholder {
+    text-align:center;
+    font-size:12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.place-orderbu{
+    text-align:center;
+}
+.place-orderbu button{
+    width:40%;
+    height:30px;
+    background: #ff8c00;
+    color:white;
+    font-weight:700;
+    border-radius:10px 0 10px 0;
+    border:transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#whatsapp-icon{
+    text-align:center;
+    position: fixed;
+    top:46%;
+    width:12%;
+    height:40px;
+    background:#25D366;
+    color:white;
+    border-radius:3px;
+    font-size:33px;
+    line-height:40px;}
+
+.copyright-strike{
+    text-align: center;
+    width:100%;
+    height:20px;
+    margin-top:80px;
+}
+.copyright-strike label{
+    font-size:11px;
+    inline-height:60px;
+}
